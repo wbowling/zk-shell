@@ -1,3 +1,4 @@
-FROM python:2-onbuild
+FROM python:2
 RUN pip install zk-shell
-CMD [ "zk-shell" ]
+ENTRYPOINT [ "zk-shell" ]
+CMD [ "localhost:2181" ]

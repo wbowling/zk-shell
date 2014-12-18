@@ -1,4 +1,4 @@
-docker-zk_shell
+wbowling/zk-shell
 ===============
 
 A simple docker image for zk_shell (https://github.com/rgs1/zk_shell)
